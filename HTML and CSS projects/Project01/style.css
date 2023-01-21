@@ -1,0 +1,110 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 40px 0px 50px 60px;
+    
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.grow-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+}
+.grow-list ul li:hover{
+    color: #212529;
+}
+.grow-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grow-list ul{
+    position: relative;
+    right: 250px;
+}
+div.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+div.button-group button.nav-button{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #7371fc;
+    border: 1px solid #7371fc;
+    position: relative;
+    right: 100px;
+}
+div.container nav.navbar-container div img{
+  width: 100px;
+  height: 40px;
+}
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.banner-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+div.banner-container img{
+    width: 600px;
+}
+div.banner-container div h1{
+    margin-right: 50px;
+}
+div.banner-container div p{
+    margin-right: 90px;
+}
+
+div h1.heading-text{
+    font-family: 'Poppins';
+    font-size: 50px;
+    color: #3c096c;
+}
+div h1{
+    width: 50%;
+}
+div h1.heading-text span{
+    color: #826aed;
+}
+div p{
+    width: 60%;
+}
+div p.description{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+div.banner-container button.nav-button{
+    background-color: #7371fc;
+    height: 50px;
+    width: 180px;
+    border: 1px solid #7371fc;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+div.banner-container button{
+    margin-top: 50px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Merriweather&family=Montserrat&family=Poppins:wght@200&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+body{
+    background: #2B2923;
+}
+nav.navbar{
+    display: flex;
+    width: 72%;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.navbar img{
+    width: 10%;
+}
+.nav-list-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list-button ul{
+    display: flex;
+    color: #f4f4f4;
+    opacity: 70%;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-list-button ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 200;
+    font-size: small;
+}
+.nav-list-button button{
+    height: 35px;
+    width: 90px;
+    background-color:#2B2923;
+    border: 1px solid #b89311;
+    color: #b89311;
+    border-radius: 10px;
+}
+main{
+    /* height: 63vh; */
+}
+.banner img{
+    width: 100%;
+    /* position: relative;
+    left: 200px; */
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner{
+    width: 72%;
+    margin: 0 auto;
+}
+.hero-section{
+    width: 72%;
+    margin: 0 auto;
+}
+.hero-section div.main-content{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
+    /* width: 72%; */
+    color: #f4f4f4be;
+   /* margin: 0 auto; */
+   margin-top: 20px;
+}
+.hero-section div.main-content p{
+    /* padding-right: 250px; */
+    /* padding: auto 0; */
+    /* margin-left: 30px; */
+    /* padding-left: 300px; */
+    text-align: left;
+    width: 35%;
+    /* position: relative; */
+    /* left: 100px; */
+    font-size: 14.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section div.main-content h1{
+    font-size: 46px;
+    width: 35%;
+    /* padding: auto 0; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 2000;
+    color: #f4f4f4;
+}

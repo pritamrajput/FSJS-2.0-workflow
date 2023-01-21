@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+  height: 100vh;
+  background-color: #000000;
+  position: relative;
+  }
+
+  .circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid pink;
+    transition: all 1s ease;
+    transform: scale(0);
+    transform: translate(-50%,-50%);
+  }
