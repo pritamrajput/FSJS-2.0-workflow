@@ -5,8 +5,9 @@
   }
   body {
   height: 100vh;
-  background-color: #000000;
+  background-color:#000000;
   position: relative;
+  cursor: pointer;
   }
 
   .circle{
@@ -15,8 +16,23 @@
     height: 100px;
     background-color: #ffffff;
     border-radius: 50%;
-    border: 2px solid pink;
+    border: 2px solid #ffffff;
     transition: all 1s ease;
     transform: scale(0);
-    transform: translate(-50%,-50%);
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    animation: circle 1.5s ease-in-out backwards;
+  }
+
+  @keyframes circle{
+    0%{
+      opacity: 1;
+      transform: scale(1);
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 0;
+      transform: scale(0);
+    }
   }

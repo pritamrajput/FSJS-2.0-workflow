@@ -4,8 +4,8 @@ body.addEventListener("click", (e) => {
     let horizontal = e.clientX;
     let element = document.createElement("div");
     element.classList.add("circle");
-    element.style.top = vertical + "px";
-    element.style.left = horizontal + "px";
+    element.style.top = vertical - 50 + "px";
+    element.style.left = horizontal - 50      + "px";
     body.appendChild(element);
     //console.log('hello world');
     
