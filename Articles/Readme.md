@@ -33,13 +33,18 @@ In this article I have discussed about CSS-grid with examples of each and every 
 In this article I have discussed about the basics of CSS-media query like what is media query, how we write media query, how we decide breakpoints.So please go through the artcle 
 
 ## 🔗 Link to Article 6
-### Part 1:-
 [![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://pritcode10.hashnode.dev/lets-discuss-basics-of-css-media-query)
 ## Article 7
 In this article I have discussed about the basics of array in javascript and I have discussed different array methods in javaScript.
 
 ## 🔗 Link to Article 7
 [![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://pritcode10.hashnode.dev/array-methods-in-javascript)
+
+## Article 8
+In this article I have discussed how a beginner can start using GIT and GitHub and can show the work he/she is doing by using GitHub.
+
+## 🔗 Link to Article 8
+[![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://pritcode10.hashnode.dev/getting-started-with-git-and-github)
 
 ## 🔗 Contact me @
 Links to contact me
