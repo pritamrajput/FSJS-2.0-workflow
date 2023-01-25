@@ -42,7 +42,9 @@ I have made a static landing page using HTML and CSS. For more details and sourc
 ## Link to Project 07
 I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
 ### Repository Link
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/ineuron-project-06)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project07-%20Credit%20Card%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://inquisitive-crisp-7a4c8f.netlify.app/)
 
 
 # Tailwind CSS Projects Links
