@@ -39,7 +39,7 @@ I have made a static landing page using HTML and CSS. For more details and sourc
 ### Repository Link
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/ineuron-project-06)
 
-## Link to Project 07
+## 🔗 Link to Project 07
 I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
 ### Repository Link
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project07-%20Credit%20Card%20Landing%20Page)
@@ -55,6 +55,24 @@ I have made a clone of VS code landing page using HTML and Tailwind CSS. I have 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS2.0-VScode-Clone) 
 ### Live link
 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://elaborate-cheesecake-93859e.netlify.app/)
+
+# Core-javaScript-Assignment Links
+## Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/core-javascript-assignment) 
+
+# JavaScript DOM Projects
+
+## 🔗 Project 01 Link
+This project generate a circle when you click on the screen and than the circle fades away. For more Details visit the link below
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/Project-1) 
+### Live Link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://unrivaled-cupcake-014d42.netlify.app/)
+
+
+<br>
+<br>
+<hr>
 
 ## 🔗 Contact me @
 Links to contact me
