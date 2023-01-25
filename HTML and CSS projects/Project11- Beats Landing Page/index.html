@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats Landing Page | FSJS2.0 Latest Project 01-06</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <div class="main__container">
+
+        <!-- navbar -->
+       <nav>
+         <div class="navbar__logo">
+            <img src="./Photos/beatsLogo.png" alt="">
+         </div>
+         <div class="navbar__list">
+            <ul id="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Specs</a></li>
+                <li><a href="#">Case</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+            <div class="hamburger" id="menu" onclick="onClickMenu()">
+              <div class="bar" id="bar-1"></div>
+              <div class="bar" id="bar-2"></div>
+              <div class="bar" id="bar-3"></div>
+            </div>
+            <button>Shop</button> 
+         </div>
+       </nav>
+
+        <!-- hero-section -->
+       <section class="hero__section"> 
+           <div class="hero__section__onear">
+               <div class="hero__beats"><img src="./Photos/onEar.png" alt="onEar"></div>
+               <div class="hero__header"><h1>Beats 3</h1></div>
+           </div>
+           <div class="hero__section__para__bag">
+              <div class="main__hero__section">
+                <div class="hero__para__header"><h2>Overview</h2></div>
+                <div class="hero__para__paragraph">
+                 <p>Enjoy award-winning Beats sound with wireless</p>
+                 <p>listening freedom and a steek, streamlined design</p>
+                 <p>with comfortable padded earphones, delivering</p>
+                 <p>first-rate playback.</p>
+                </div>
+                <div class="hero__section__bag">
+                    <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                    <p>Add to Bag</p>
+                    <h4>N399K</h4>
+                </div>
+              </div>
+           </div>
+           <div class="hero__section__sponsors">
+              <div class="section__sponsors appleLogo"><a href="#" ><img src="./Photos/appleLogo.png" alt="appleLogo"></a></div>
+              <div class="section__sponsors spotifyLogo"><a href="#" ><img src="./Photos/spotifyLogo.png" alt="spotifyLogo"></a></div>
+              <div class="section__sponsors amazonLogo"><a href="#" ><img src="./Photos/amazonLogo.png" alt="amazonLogo"></a></div>
+              <div class="section__sponsors youtubeLogo"><a href="#" ><img src="./Photos/youtubeLogo.png" alt="youtubeLogo"></a></div>
+           </div>
+           <div class="headphone">
+            <img src="./Photos/mainImage.png" alt="mainImage">
+           </div>
+       </section>
+
+       <!-- section specs -->
+       <div class="section__specs">
+        <div class="section__specs__image">
+          <img src="./Icons/specsLogo.png" alt="specslogo">
+        </div>
+        <div class="section__specs__actual">
+            <div class="section__different__specs">
+               <div class="specs__1">
+                 <img src="./Icons/bluetooth.png" alt="bluetooth">
+                 <h4>Connection</h4>
+                 <p>Bluetooth v5.2</p>
+               </div>
+               <div class="specs__2">
+                 <img src="./Icons/battery.png" alt="battery">
+                 <h4>Battery</h4>
+                 <p>Duration 40h</p>
+               </div>
+               <div class="specs__3">
+                   <img src="./Icons/charger.png" alt="charger">
+                   <h4>Load</h4>
+                   <p>Fast charge 4.2-AAC</p>
+               </div>
+               <div class="specs__4">
+                <img src="./Icons/mic.png" alt="mic">
+                <h4>Microphone</h4>
+                  <p>Support Apple siri</p>
+                  <p>and Google</p>
+               </div>
+            </div>
+            <div class="specs__actual__headphone">
+              <img src="./Photos/specsImage.png" alt="specsImage">
+            </div>
+        </div>
+       </div>
+
+       <!-- section case -->
+       <div class="section__case">
+         <div class="section__case__words">
+            <img src="./Icons/caseLogo.png" alt="caseLogo">
+         </div>
+         <div class="section__case__image__para">
+            <div class="case__image">
+               <img src="./Photos/caseImage.png" alt="">
+            </div>
+            <div class="case__para__btn">
+              <div class="case__main">
+                <div class="case__para">
+                  <p>With a comfortable and</p>
+                  <p>adaptable case so that you</p>
+                  <p>can store it whenever you</p>
+                  <p>want, and keep your durability</p>
+                  <p>forever.</p>
+               </div>
+               <div class="case__btn">
+                  <div>
+                   <img src="./Icons/group.png" alt="group">
+                   <p>More info</p>
+                  </div>
+               </div>
+              </div>
+            </div>
+         </div>
+       </div>
+
+       <!-- music-section -->
+       <div class="immerse__music">
+         <div class="immerse__main">
+            <div class="immerse__main__inside">
+              <div class="immerse__music__para">
+                <div class="music__header">
+                  <h3>Immerse yourself in</h3>
+                  <h3>your music</h3>
+                </div>
+                <div class="music__paragraph">
+                  <p>Buy Now, up to 40% off.</p>
+                </div>
+                <div class="immerse__buynow">
+                  <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                  <p>Buy Now</p>
+                </div>
+            </div>
+            </div>
+            <div class="immerse__headphone__image">
+              <img src="./Photos/buyNowSectionImage.png" alt="buyNowSectionImage">
+            </div>
+         </div>
+       </div>
+
+       <!-- choose your style -->
+        <div class="main__choose__style">
+          <div class="choose__style">
+            <div class="choose__style__para">
+             <img src="./Icons/productLogo.png" alt="productLogo">
+            </div>
+            <div class="choose___style__headphones">
+              <div class="style__headphone1 different__styles">
+               <div class="headphone1 headphone__style"><img src="./Photos/Black.png" alt="Black"></div>
+               <div class="style__price">
+                 <div>
+                    <p>Black</p>
+                    <p>N299K</p>
+                 </div>
+                 <div>
+                   <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                 </div>
+               </div>
+              </div>
+              <div class="style__headphone2 different__styles">
+                 <div class="headphone2 headphone__style"><img src="./Photos/redBlack.png" alt="redBlack"></div>
+                 <div class="style__price">
+                   <div>
+                      <p>Red Black</p>
+                      <p>N299K</p>
+                   </div>
+                   <div>
+                     <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                   </div>
+                 </div>
+              </div>
+              <div class="style__headphone3 different__styles">
+               <div class="headphone3 headphone__style"><img src="./Photos/nightBlack.png" alt="nightBlack"></div>
+               <div class="style__price">
+                 <div>
+                    <p>Night Black</p>
+                    <p>N299K</p>
+                 </div>
+                 <div>
+                   <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                 </div>
+               </div>
+              </div>
+              <div class="style__headphone4 different__styles">
+               <div class="headphone4 headphone__style"><img src="./Photos/blue.png" alt="blue"></div>
+               <div class="style__price">
+                 <div>
+                    <p>Blue</p>
+                    <p>N299K</p>
+                 </div>
+                 <div>
+                   <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                 </div>
+               </div>
+              </div>
+              <div class="style__headphone5 different__styles">
+               <div class="headphone5 headphone__style"><img src="./Photos/twilightGray.png" alt="twilightGray"></div>
+               <div class="style__price">
+                 <div>
+                    <p>Twilight Grey</p>
+                    <p>N299K</p>
+                 </div>
+                 <div>
+                   <img src="./Icons/shoppingBag.png" alt="shoppingBag">
+                 </div>
+               </div>
+              </div>
+            </div>
+         </div>
+        </div>
+    
+        <!-- footer -->
+        <footer>
+          <div class="footer__main1">
+            <div class="footer__logo">
+              <img src="./Photos/beatsLogo.png" alt="beatsLogo">
+            </div>
+            <div class="footer__list1">
+              <h3><a href="#">Accessories</a></h3>
+              <ul>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">Earphones</a></li>
+                <li><a href="#">Earbuds</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </div>
+            <div class="footer__list2">
+              <h3><a href="#">Support</a></h3>
+              <ul>
+                <li><a href="#">Product help</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Updates</a></li>
+                <li><a href="#">Provides</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__main2">
+            <div class="footer__email__contactus">
+              <input type="email" name="" id="" placeholder="Email">
+              <div class="footer__subscribe">
+                 <div class="footer__rightarrow">
+                  <img src="./Icons/rightArrow.png" alt="rightArrow">
+                  <p>Subscribe</p>
+                 </div>
+              </div>
+            </div>
+            <div class="footer__social__icons">
+              <img src="./Icons/facebook.png" alt="facebook">
+              <img src="./Icons/twitter.png" alt="twitter">
+              <img src="./Icons/instagram.png" alt="instagram">
+              <img src="./Icons/linkedin.png" alt="linkedin">
+            </div>
+          </div>
+          <div class="footer__up__arrow">
+            <img src="./Icons/upArrow.png" alt="upArrow">
+          </div>
+        </footer>
+        
+        <!-- end -->
+        <div class="end">
+          <h3>Creator : Pritam Chauhan😃</h3>
+        </div>
+
+      </div>
+
+      <script src="./script.js"></script>
+</body>
+</html>
