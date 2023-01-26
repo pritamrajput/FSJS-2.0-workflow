@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Poppins:wght@300;400;600&family=Zeyada&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, orange , white, green);  
+    height: 100vh;
+    color: #fff;
+    font-family: 'Zeyada', cursive;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.main{
+    background-color: #fff;
+    width: 60%;
+    display: grid;
+    /* align-content: center; */
+    justify-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.even{
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    animation: circle 1.5s ease-in-out backwards;
+}
+.odd{
+    width: 100px;
+    height: 80px;
+    background-color: green;
+    color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    animation: circle 1.5s ease-in-out backwards;
+}
+.prime{
+    width: 100px;
+    height: 80px;
+    background-color:orange;
+    color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    animation: circle 1.5s ease-in-out backwards;
+}
+@keyframes circle{
+    0%{
+      opacity: 0;
+      transform: scale(0);
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+.btn{
+    padding-bottom: 20px;
+}
+.input1{
+   padding: 10px 10px;
+   border: #000;
+}
+input:focus{
+    outline: none;
+}
+.input-btn, .btn-reset{
+    padding: 12px 10px;
+    background-color: #2e4057;
+    color: #fff;
+}
+.input-btn:hover, .btn-reset:hover{
+   cursor: pointer;
+}
+
+
+@media(max-width : 1245px){
+    .main{
+        width: 70%;  
+    }
+
+}
+@media(max-width : 1051px){
+    .main{
+        width: 80%;  
+    }
+}
+@media(max-width : 925px){
+    .main{
+       
+        grid-template-columns: repeat(3,1fr);  
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
+@media(max-width : 450px){
+    .main{
+        grid-template-columns: repeat(2,1fr);  
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
