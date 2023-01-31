@@ -70,6 +70,9 @@ spanAll[2].innerText = "iNeuron Intelligence Pvt Ltd"
 ## javascript code
 ```js
 'use strict';
+let list = document.querySelector("ul");
+let listInsiede = list.getElementsByTagName('li');
+listInsiede[2].innerText = 'Projects';
 let heroSection = document.querySelector('.hero-right-section');
 let image = heroSection.getElementsByTagName('img');
 image[0].src = "hitesh-sir.jpg";
