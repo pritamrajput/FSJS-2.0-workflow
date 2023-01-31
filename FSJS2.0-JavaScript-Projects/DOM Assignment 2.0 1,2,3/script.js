@@ -31,9 +31,19 @@
 // spanAll[1].innerText = "an employee"
 // spanAll[2].innerText = "iNeuron Intelligence Pvt Ltd"
 
-let list = document.querySelector("ul");
-let listInsiede = list.getElementsByTagName('li');
-listInsiede[2].innerText = 'Projects';
-let heroSection = document.querySelector('.hero-right-section');
-let image = heroSection.getElementsByTagName('img');
-image[0].src = "hitesh-sir.jpg";
+// let list = document.querySelector("ul");
+// let listInsiede = list.getElementsByTagName('li');
+// listInsiede[2].innerText = 'Projects';
+// let heroSection = document.querySelector('.hero-right-section');
+// let image = heroSection.getElementsByTagName('img');
+// image[0].src = "hitesh-sir.jpg";
+
+// let newBTN = document.querySelector('.hero-right-section-btns');
+// let newBTN1 = document.createElement('button');
+// newBTN1.innerText = "Support Me"
+// // console.log(newBTN1);
+// // console.log(newBTN);
+// newBTN.appendChild(newBTN1)
+// let list = document.querySelector("ul");
+// let listInsiede = list.getElementsByTagName('li');
+// listInsiede[2].innerText = 'Projects';

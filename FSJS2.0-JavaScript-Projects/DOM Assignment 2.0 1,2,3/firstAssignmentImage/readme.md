@@ -77,3 +77,22 @@ let heroSection = document.querySelector('.hero-right-section');
 let image = heroSection.getElementsByTagName('img');
 image[0].src = "hitesh-sir.jpg";
 ```
+# Task 5
+## original page
+![alt text](./original.PNG)
+## Achieve the following with DOM manipulation
+![alt text](./task5Output.png)
+
+## javascript code
+```js
+'use strict';
+let newBTN = document.querySelector('.hero-right-section-btns');
+let newBTN1 = document.createElement('button');
+newBTN1.innerText = "Support Me"
+// console.log(newBTN1);
+// console.log(newBTN);
+newBTN.appendChild(newBTN1)
+let list = document.querySelector("ul");
+let listInsiede = list.getElementsByTagName('li');
+listInsiede[2].innerText = 'Projects';
+```
