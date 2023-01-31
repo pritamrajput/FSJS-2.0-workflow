@@ -4,7 +4,7 @@
 ## Achieve the following with DOM manipulation
 ![Image](task1Output.png)
 ## javaScript code
-```
+```js
 'use strict';
 let ulList = document.querySelector('ul');
 console.log(ulList);
