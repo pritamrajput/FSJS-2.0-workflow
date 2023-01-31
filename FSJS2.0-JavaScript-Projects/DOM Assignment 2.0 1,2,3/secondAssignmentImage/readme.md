@@ -1,4 +1,4 @@
-# Take 1
+# Task 1
 ## Original Page
 ![Image](aboutOriginal.PNG)
 ## Achieve the following with DOM manipulation
