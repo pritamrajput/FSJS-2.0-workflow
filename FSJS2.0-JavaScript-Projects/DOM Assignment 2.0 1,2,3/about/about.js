@@ -25,6 +25,11 @@ accordian.forEach((element) => {
 //   nextElement.style.display = 'block';
 // }
 
+let ulList = document.querySelector('ul');
+console.log(ulList);
+let listInside = ulList.getElementsByTagName('li');
+console.log(listInside);
+listInside[2].textContent = "Projects"
 let main =  document.querySelector('.accordian-wrapper');
 let divAdded = document.createElement('div');
 divAdded.classList.add('accordian');
