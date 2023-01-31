@@ -20,13 +20,17 @@
 // let input = document.querySelector('.search-field');
 // input.innerHTML = ` <input type="text" placeholder="Search My Projects" />
 // <button>Search</button>`
-let list = document.querySelector('ul');
-let listInside = list.getElementsByTagName('li');
-console.log(listInside);
-listInside[2].innerText = "Projects";
+// let list = document.querySelector('ul');
+// let listInside = list.getElementsByTagName('li');
+// console.log(listInside);
+// listInside[2].innerText = "Projects";
 
-let section = document.querySelector('.hero-left-section')
-let para1 = section.getElementsByTagName('p');
-let spanAll = para1[0].getElementsByTagName('span');
-spanAll[1].innerText = "an employee"
-spanAll[2].innerText = "iNeuron Intelligence Pvt Ltd"
+// let section = document.querySelector('.hero-left-section')
+// let para1 = section.getElementsByTagName('p');
+// let spanAll = para1[0].getElementsByTagName('span');
+// spanAll[1].innerText = "an employee"
+// spanAll[2].innerText = "iNeuron Intelligence Pvt Ltd"
+
+// let heroSection = document.querySelector('.hero-right-section');
+// let image = heroSection.getElementsByTagName('img');
+// image[0].src = "hitesh-sir.jpg";

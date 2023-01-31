@@ -61,3 +61,16 @@ let spanAll = para1[0].getElementsByTagName('span');
 spanAll[1].innerText = "an employee"
 spanAll[2].innerText = "iNeuron Intelligence Pvt Ltd"
 ```
+# Task 4
+## original page
+![alt text](./original.PNG)
+## Achieve the following with DOM manipulation
+![alt text](./task4Output.png)
+
+## javascript code
+```js
+'use strict';
+let heroSection = document.querySelector('.hero-right-section');
+let image = heroSection.getElementsByTagName('img');
+image[0].src = "hitesh-sir.jpg";
+```
