@@ -17,3 +17,5 @@ btnHref.innerText = "Pro Subscription";
 btnHref.href = "#"
 btnHref.classList.add('btn')
 lastChild.appendChild(btnHref);
+
+//6th card
