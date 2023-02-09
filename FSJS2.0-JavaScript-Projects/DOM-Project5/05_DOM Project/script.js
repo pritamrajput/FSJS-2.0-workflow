@@ -53,6 +53,6 @@ console.log(elementCreated);
 console.log(recipeGallery.lastElementChild);
 
 // My Name
-// const myName = document.querySelector(".page-footer");
-// const myNameOne = myName.firstElementChild.lastElementChild;
-// myNameOne.innerText = "Pritam Chauhan";
+const myName = document.querySelector(".page-footer");
+const myNameOne = myName.firstElementChild.lastElementChild;
+myNameOne.innerText = "Pritam Chauhan";
