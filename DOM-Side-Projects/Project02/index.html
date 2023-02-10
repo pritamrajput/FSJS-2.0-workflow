@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
     <section class="wrapper">
-        <p>Calculate a weight of an object on a planet</p>
-        <div class="input__wrapper">
-            <input type="number" name="" id="" placeholder="Mass in Kilogram">
-            <select name="--select a planet--" id="planet">
+        <p>Calculate a weight of an </p>
+        <p>object on a planet</p>
+        <div class="input__wrapper">t
+            <input class="number__input" type="number" name="" id="" placeholder="Mass in Kilogram">
+            <select class="select__planet" name="select a planet" id="planet">
                 <option value="">--select a planet--</option>
                 <option value="mercury">Mercury</option>
                 <option value="venus">Venus</option>
@@ -25,9 +29,13 @@
                 <option value="neptune">Neptune</option>
                 <option value="pluto">Pluto</option>
             </select>
-            <button>Calculate Weight</button>
+            <button class="calculate__BTN">Calculate Weight</button>
         </div>
-        
+        <div class="outer__box">
+            <div class="inner__box">
+              <img src="./assets/Earth.png" alt="">
+            </div>
+        </div>
     </section>
 </body>
 </html>
