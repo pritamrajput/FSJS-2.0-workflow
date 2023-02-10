@@ -8,42 +8,56 @@ btnClick.addEventListener("click",function(){
     const planetName = document.querySelector(".select__planet");
     const getPlanet = planetName.value;
 
+    function doMagic(getPlanet, gValue){
+        const innerBox = document.querySelector('.inner__box')
+        innerBox.style.display = "none";
+    
+        const innerBox1 = document.querySelector(".inner__box1")
+        innerBox1.style.display = "flex";
+        innerBox1.firstElementChild.src = "./assets/"+`${getPlanet}.png`
+    
+        document.querySelector(".inner__span").innerText =`${getPlanet}`.toUpperCase();
+        document.querySelector(".circle").innerText = `${(getMass*gValue)/9.81}kg`
+    }
+
    if(getPlanet === "mercury"){
-    console.log((getMass*3.61)/9.81);
-    const innerBox = document.querySelector('.inner__box')
-    innerBox.style.display = "none";
-    console.log(innerBox);
-    const innerBox1 = document.querySelector(".inner__box1")
-    innerBox1.style.display = "flex";
-    innerBox1.firstElementChild.src = "./assets/"+`${getPlanet}.png`
-    console.log(innerBox1.firstElementChild);
+     const gValue = 3.61;
+     doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "venus"){
-    console.log((getMass*8.83)/9.81);
+    const gValue = 8.83;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "earth"){
     console.log(getMass);
    }
    else if(getPlanet === "mars"){
-    console.log((getMass*3.75)/9.81);
+    const gValue = 3.75;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "moon"){
-    console.log((getMass*1.625)/9.81);
+    const gValue =1.625;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "jupiter"){
-    console.log((getMass*24.79)/9.81);
+    const gValue =24.79;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "saturn"){
-    console.log((getMass*11.2)/9.81);
+    const gValue =11.2;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "uranus"){
-    console.log((getMass*10.5)/9.81);
+    const gValue =10.5;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "neptune"){
-    console.log((getMass*13.3)/9.81);
+    const gValue =13.3;
+    doMagic(getPlanet,gValue);
    }
    else if(getPlanet === "pluto"){
-    console.log((getMass*0.61)/9.81);
+    const gValue =0.61;
+    doMagic(getPlanet,gValue);
    }
 })
 
