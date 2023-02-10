@@ -5,12 +5,17 @@ const btnClick = document.querySelector(".calculate__BTN");
 btnClick.addEventListener("click",function(){
     const yourMass = document.querySelector(".number__input");
     const getMass = yourMass.value;
+    console.log(getMass);
     const planetName = document.querySelector(".select__planet");
     const getPlanet = planetName.value;
+    console.log(getPlanet);
 
     function doMagic(getPlanet, gValue){
         const innerBox = document.querySelector('.inner__box')
         innerBox.style.display = "none";
+
+        document.querySelector(".inner__box2").style.display = "none";
+        document.querySelector(".inner__box3").style.display = "none";
     
         const innerBox1 = document.querySelector(".inner__box1")
         innerBox1.style.display = "flex";
@@ -30,6 +35,18 @@ btnClick.addEventListener("click",function(){
    }
    else if(getPlanet === "earth"){
     console.log(getMass);
+    const innerBox = document.querySelector('.inner__box')
+    innerBox.style.display = "none";
+
+    document.querySelector(".inner__box2").style.display = "none";
+    document.querySelector(".inner__box3").style.display = "none";
+
+    const innerBox1 = document.querySelector(".inner__box1")
+    innerBox1.style.display = "flex";
+    innerBox1.firstElementChild.src = "./assets/"+`${getPlanet}.png`
+    
+    document.querySelector(".inner__span").innerText =`${getPlanet}`.toUpperCase();
+    document.querySelector(".circle").innerText = `${getMass}kg`
    }
    else if(getPlanet === "mars"){
     const gValue = 3.75;
@@ -58,6 +75,22 @@ btnClick.addEventListener("click",function(){
    else if(getPlanet === "pluto"){
     const gValue =0.61;
     doMagic(getPlanet,gValue);
+   }
+   else if(getPlanet === "" && getMass === ""){
+    const innerBox = document.querySelector('.inner__box')
+    innerBox.style.display = "none";
+    document.querySelector(".inner__box2").style.display = "block";
+
+    document.querySelector(".inner__box1").style.display = "none";
+
+    document.querySelector(".inner__box3").style.display = "none";
+   }
+   else if(getPlanet === ""){
+    const innerBox = document.querySelector('.inner__box')
+    innerBox.style.display = "none";
+    document.querySelector(".inner__box3").style.display = "block";
+    document.querySelector(".inner__box1").style.display = "none";
+    document.querySelector(".inner__box2").style.display = "none";
    }
 })
 

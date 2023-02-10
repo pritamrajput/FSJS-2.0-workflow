@@ -100,6 +100,21 @@ body{
 }
 
 
+/* inner box 2 */
+.inner__box2{
+    display: none;
+    color: #fff;
+    padding: 30px 30px;
+    font-family: 'Lato', sans-serif;
+}
+.inner__box3{
+    display: none;
+    color: #fff;
+    padding: 30px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+
 
 
 /* Stars */
