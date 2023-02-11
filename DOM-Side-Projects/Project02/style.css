@@ -28,6 +28,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 2.5rem;
+    text-align:center ;
     color: #fff;
     letter-spacing: 10px;
     background: -webkit-linear-gradient(white, #38495a);
@@ -113,6 +114,63 @@ body{
     padding: 30px 30px;
     font-family: 'Lato', sans-serif;
 }
+
+
+/* Media queries */
+@media (max-width: 1200px){
+    .outer__box{
+        width: 65%;
+     }
+}
+@media (max-width: 1113px){
+    .outer__box{
+        width: 75%;
+     }
+}
+@media (max-width: 977px){
+    .outer__box{
+        width: 95%;
+     }
+}
+
+@media (max-width: 761px){
+    .inner__box1__inside span{
+        font-size: 1.5rem;
+    }
+    .wrapper p{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 660px){
+    .inner__box1{
+      flex-direction: column;
+     } 
+}
+@media (max-width: 579px){
+    .wrapper p{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 515px){
+    .wrapper p{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width : 461px){
+    .input__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media(max-width : 401px){
+    .inner__box1__inside span{
+        font-size: 1.3rem;
+    }
+}
+
 
 
 

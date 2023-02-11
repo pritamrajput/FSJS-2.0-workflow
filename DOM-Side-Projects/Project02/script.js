@@ -22,7 +22,7 @@ btnClick.addEventListener("click",function(){
         innerBox1.firstElementChild.src = "./assets/"+`${getPlanet}.png`
     
         document.querySelector(".inner__span").innerText =`${getPlanet}`.toUpperCase();
-        document.querySelector(".circle").innerText = `${(getMass*gValue)/9.81}kg`
+        document.querySelector(".circle").innerText = `${((getMass*gValue)/9.81).toFixed(2)} kg`
     }
 
    if(getPlanet === "mercury"){
@@ -92,7 +92,15 @@ btnClick.addEventListener("click",function(){
     document.querySelector(".inner__box1").style.display = "none";
     document.querySelector(".inner__box2").style.display = "none";
    }
+   else if(getMass === ""){
+    const innerBox = document.querySelector('.inner__box')
+    innerBox.style.display = "none";
+    document.querySelector(".inner__box2").style.display = "block";
+
+    document.querySelector(".inner__box1").style.display = "none";
+
+    document.querySelector(".inner__box3").style.display = "none";
+   }
 })
 
 const yourMass = document.querySelector(".number__input");
-// console.log(yourMass);
