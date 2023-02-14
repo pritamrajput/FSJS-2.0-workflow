@@ -46,6 +46,39 @@ I have made a static landing page using HTML and CSS. This landing page is respo
 ### Live link
 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://inquisitive-crisp-7a4c8f.netlify.app/)
 
+## 🔗 Link to Project 08
+I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project08-%20Hosting%20Site%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/sites/pritam-hosting-site/overview)
+## 🔗 Link to Project 09
+I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project09-%20Gaming%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/sites/pritam-gaming-site/overview)
+
+## 🔗 Link to Project 10
+I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project10-%20Real%20Estate%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/sites/pritam-real-estate-site/overview)
+
+## 🔗 Link to Project 11
+I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project11-%20Beats%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/sites/pritam-beats-site/overview)
+
+## 🔗 Link to Project 12
+I have made a static landing page using HTML and CSS. This landing page is responsive to every screen size. For more details and source code click on the button below.
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/HTML%20and%20CSS%20projects/Project12-%20Data%20Analytics%20Landing%20Page)
+### Live link
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://app.netlify.com/sites/data-analytics-site-by-pritam/overview)
 
 # Tailwind CSS Projects Links
 
