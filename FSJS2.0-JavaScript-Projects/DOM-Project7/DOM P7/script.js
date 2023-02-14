@@ -1,13 +1,13 @@
 // Task 1
 "use strict";
 
-// const getLanguages = document.querySelector(".main__languages");
-// const getChildren = getLanguages.children;
-// console.log(getChildren);
+const getLanguages = document.querySelector(".main__languages");
+const getChildren = getLanguages.children;
+console.log(getChildren);
 
-// for(let i = 3 ; i<getChildren.length; i = i + 1){
-//     getChildren[i].remove();
-// }
+for(let i = 3 ; i<getChildren.length; i = i + 1){
+    getChildren[i].remove();
+}
 
 //Task 2
 
@@ -18,6 +18,8 @@ console.log(getButton);
 getButton.removeAttribute("disabled")
 getInput.removeAttribute("disabled")
 
+getInput.placeholder = "iNeuron";
+
 
 
 const languages = document.querySelector('.main__languages').children;
@@ -27,21 +29,12 @@ console.log(name1);
 const names = Object.assign({},name1);
 console.log(names);
 
-localStorage.setItem("names1",JSON.stringify(names));
+for(let i = 3 ; i<languages.length; i = i + 2){
+        languages[i].style.display = 'none';
+    }
 
-console.log(localStorage.getItem(name1));
-for(let i = 3 ; i<getChildren.length; i = i + 2){
-    getChildren[i].style.display = "none";
-} 
-
-
-
-if(localStorage.getItem("visible")==='0'){
-    for(let i = 3 ; i<getChildren.length; i = i + 2){
-        getChildren[i].style.display = "inline";
+getButton.addEventListener("click", function(){
+    for(let i = 3 ; i<languages.length; i = i + 2){
+        languages[i].style.display = 'inline';
     }  
-}
-
-getButton.addEventListener("click", ()=>{
-    localStorage.setItem('visible',0)
 })
