@@ -24,10 +24,7 @@ getInput.placeholder = "iNeuron";
 
 const languages = document.querySelector('.main__languages').children;
 console.log(languages);
-const name1 = Array.from(languages);
-console.log(name1);
-const names = Object.assign({},name1);
-console.log(names);
+
 
 for(let i = 3 ; i<languages.length; i = i + 2){
         languages[i].style.display = 'none';
