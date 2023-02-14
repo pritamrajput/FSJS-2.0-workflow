@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="200" height="200" viewBox="0 0 200 200" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 100 100)" id="906c1319-393e-48c4-be63-0403b1d0381e"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-100" y="-100" rx="0" ry="0" width="200" height="200" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="84fa19d8-19cf-49db-80b8-444b169a3de5"  >
+</g>
+<g transform="matrix(2.36 0 0 2.44 100 100)" clip-path="url(#CLIPPATH_6)"  >
+<clipPath id="CLIPPATH_6" >
+	<rect transform="matrix(1 0 0 1 -78 27)" id="clip0" x="-103" y="-52" rx="0" ry="0" width="206" height="104" />
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(68,68,68); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-181, -25)" d="M 184.125 3.125 L 187.25 0 L 202.875 0 L 206 3.125 L 206 18.75 L 202.875 21.875 L 187.25 21.875 L 184.125 18.75 L 184.125 3.125 Z M 187.25 3.125 L 187.25 18.75 L 202.875 18.75 L 202.875 3.125 L 187.25 3.125 Z M 156 31.25 L 156 12.5 L 159.125 9.37499 L 174.75 9.37499 L 177.875 12.5 L 177.875 28.125 L 176.312 29.6875 L 176.313 29.6876 L 177.875 28.125 L 193.5 28.125 L 196.625 31.25 L 196.625 46.875 L 193.5 50 L 177.875 50 L 174.75 50 L 174.75 49.9997 L 174.75 50 L 159.125 50 L 156 46.875 L 156 31.25 Z M 159.125 46.875 L 159.125 31.25 L 174.75 31.25 L 174.75 46.875 L 159.125 46.875 Z M 177.875 46.875 L 177.875 31.25 L 193.5 31.25 L 193.5 46.875 L 177.875 46.875 Z M 159.125 28.125 L 159.125 12.5 L 174.75 12.5 L 174.75 28.125 L 159.125 28.125 Z" stroke-linecap="round" />
+</g>
+</svg>
