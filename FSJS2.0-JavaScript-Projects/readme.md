@@ -3,7 +3,7 @@
 
 This repository is to maintain javaScript DOM projects which I will be doing as assignment given to me in FSJS2.0 Bootcamp of Ineuron.
 
-# Projects 01
+# Projects 00
 This projects generates random circles when we click on the screen and than the circle gradually fades away.
 
 ## Link to live project
@@ -11,3 +11,12 @@ This projects generates random circles when we click on the screen and than the 
 
 ## Source Code
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project0)
+
+# Project 01
+[Project01 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage)
+
+# Project 02
+[Project02 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage)
+
+# Project 03
+[Project03 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage)
