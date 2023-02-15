@@ -5,7 +5,7 @@
 ## Achieve the following with DOM manipulation
 ![Image](./Output/DOM%20P3%20SS-1.png)
 ![Image](./Output/DOM%20P3%20SS-2.png)
-## JavaScript code to achive the required output
+## JavaScript code to achieve the required output
 ```js
 "use strict";
 // Ineuron Logo
