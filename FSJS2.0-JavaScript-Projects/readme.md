@@ -20,3 +20,21 @@ This projects generates random circles when we click on the screen and than the 
 
 # Project 03
 [Project03 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage)
+
+# Project 04
+[Project04 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project4/04_DOM%20Project)
+
+# Project 05
+[Project05 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project5/05_DOM%20Project)
+
+# Project 06
+[Project06 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project6/06_DOM%20Project)
+
+# Project 07
+[Project07 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project7/DOM%20P7)
+
+# Project 08
+[Project08 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project8/DOM%20P8)
+
+# Project 09
+[Project09 repository](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project9/DOM%20P9)
