@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(209, 192, 195),lightblue);
+}
+
+.input__field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to top, #2e2d2d,#fff);
+    gap: 20px;
+    align-items: center;
+    padding: 8% 5%;
+    box-shadow: 0px 0px 15px 20px #a5a4a4;
+    border-radius: 10%;
+}
+
+.input__floor,.input__lift{
+   width: 220px;
+   padding: 5px 5px;
+}
+.generate-button{
+    padding: 5px 10px;
+}
