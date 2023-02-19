@@ -6,4 +6,28 @@
 .main__container{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_container{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
 }
