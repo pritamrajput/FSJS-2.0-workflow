@@ -8,8 +8,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    gap: 5px;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .inner_container{
@@ -18,7 +21,8 @@
     display: flex;
     gap: 5px;
     align-items: center;
-}
+    background-color: skyblue ;
+}   
 
 .btn{
     padding: 5px 10px;
@@ -30,4 +34,11 @@
 
 .btn:hover{
     cursor: pointer;
+}
+
+.lifts{
+    height: 90%;
+    width: 100px;
+    background-color: pink;
+    border: solid pink 1px;
 }
