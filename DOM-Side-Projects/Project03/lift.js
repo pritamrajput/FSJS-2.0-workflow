@@ -20,13 +20,35 @@ function appendButton(parent, children){
     }
 }
 
-const button = [createButton("Up"),createButton("Down")];
+
 
 for(let i = 0 ; i < getFloors ;i++){
-  const innerDiv = document.createElement("div");
-  innerDiv.classList.add("inner_container");
-  getDiv.appendChild(innerDiv);
-  appendButton(innerDiv,button);
+    if(i === 0){
+        const innerDiv = document.createElement("div");
+        innerDiv.classList.add("inner_container");
+        getDiv.appendChild(innerDiv);
+        const button = [createButton("Up")];
+        appendButton(innerDiv,button);  
+    }
+    else if(i !== 0 && i!== getFloors - 1){
+        const innerDiv = document.createElement("div");
+        innerDiv.classList.add("inner_container");
+        getDiv.appendChild(innerDiv);
+        const button = [createButton("Up"),createButton("Down")];
+        appendButton(innerDiv,button);   
+    }
+    else if(i === getFloors - 1){
+        const innerDiv = document.createElement("div");
+        innerDiv.classList.add("inner_container");
+        getDiv.appendChild(innerDiv);
+        const button = [createButton("Down")];
+        appendButton(innerDiv,button);
+    }
+//   const innerDiv = document.createElement("div");
+//   innerDiv.classList.add("inner_container");
+//   getDiv.appendChild(innerDiv);
+//   const button = [createButton("Up"),createButton("Down")];
+//   appendButton(innerDiv,button);
 }
 
 
