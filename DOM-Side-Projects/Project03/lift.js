@@ -31,10 +31,15 @@ function createLifts(liftIndex){
 
 
 
+
 // creating lifts
 for(let i = 0; i<getLifts; i++){
     lifts[i] = createLifts(i);
  }
+
+lifts[0].style.transition = "bottom 2.5s";
+lifts[1].style.transition = "botton 2.5s";
+lifts[2].style.transition = "botton 2.5s";
 
 // function for appending lifts
 function appendLifts(parent,children){
@@ -50,6 +55,9 @@ for(let i = 0 ; i < getFloors ;i++){
         innerDiv.classList.add("inner_container");
         getDiv.appendChild(innerDiv);
         const button = [createButton("Down")];
+        button[0].addEventListener("click",function(){
+            lifts[0].style.bottom = `${(getFloors-1)*120}px`;
+        })
         appendButton(innerDiv,button); 
     }
     else if(i !== 0 && i!== getFloors - 1){
@@ -58,17 +66,7 @@ for(let i = 0 ; i < getFloors ;i++){
         getDiv.appendChild(innerDiv);
         const button = [createButton("Up"),createButton("Down")];
         button[0].addEventListener("click",function(){
-            const liftZero = document.querySelector(".lift__0");
-            liftZero.style.transition = "bottom 2s";
-            if(i===3){
-              liftZero.style.bottom = "120"+"px";
-            } 
-            else if(i===2){
-                liftZero.style.bottom = "240"+"px";
-            }
-            else if(i===1){
-                liftZero.style.bottom = "360"+"px";
-            }
+            lifts[0].style.bottom = `${(getFloors - i - 1)*120}px`
         })
         appendButton(innerDiv,button);   
     }
@@ -79,6 +77,9 @@ for(let i = 0 ; i < getFloors ;i++){
         const button = [createButton("up")];
         appendButton(innerDiv,button);
         // Appending lifts to the innerDiv
+        button[0].addEventListener('click',function(){
+            lifts[0].style.bottom = "0"+"px";
+        })
         appendLifts(innerDiv,lifts) ;
         console.log(lifts);
     }

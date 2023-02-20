@@ -45,3 +45,6 @@
     position: relative;
     left: 100px;
 }
+.lift__0,.lift__1,.lift__2{
+    transition: bottom 2s;
+}
