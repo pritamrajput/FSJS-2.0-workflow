@@ -12,7 +12,10 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
+    
 
 .inner_container{
     width: 80%;
@@ -47,4 +50,24 @@
 }
 .lift__0,.lift__1,.lift__2{
     transition: bottom 2s;
+}
+
+.input__lift{
+    margin: 10px;
+    border: #000000 solid 1px;
+    padding: 5px 10px;
+}
+.input__lift:focus{
+    outline: none;
+}
+.lift__select{
+    margin: 10px;
+    padding: 5px 10px;  
+}
+.lift__select:hover{
+    cursor: pointer;
+}
+.inside__container{
+    background-color: aquamarine;
+    margin-bottom: 5px;
 }

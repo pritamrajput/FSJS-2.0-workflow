@@ -1,6 +1,7 @@
 'use strict';
 const form = document.querySelector(".input__field");
 const getFloors = document.querySelector(".input__floor");
+console.log(getFloors);
 const getLifts= document.querySelector(".input__lift");
 
 
