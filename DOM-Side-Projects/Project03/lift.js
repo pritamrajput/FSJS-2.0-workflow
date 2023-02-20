@@ -3,10 +3,12 @@
 const getDiv = document.querySelector(".main__container")
 const getFloors = localStorage.getItem('set-floors');
 const getLifts = localStorage.getItem('set-lifts');
+let btn;
+let lifts = [];
 
 // function to create button
 function createButton(text){
-    const btn  = document.createElement("button");
+    btn = document.createElement("button");
     btn.classList.add("btn");
     btn.textContent = text;
     return btn;
@@ -21,27 +23,25 @@ function appendButton(parent, children){
 }
 
 //Function to create lifts inside floor
-function createLifts(){
+function createLifts(liftIndex){
     const lift = document.createElement("div");
-    lift.classList.add("lifts");
+    lift.classList.add("lifts",`lift__${liftIndex}`);
     return lift;
 }
 
-let lifts = []
 
+
+// creating lifts
 for(let i = 0; i<getLifts; i++){
-    lifts[i] = createLifts();
+    lifts[i] = createLifts(i);
  }
 
-//  console.log(lifts);
-
-
+// function for appending lifts
 function appendLifts(parent,children){
   for(let i = 0;i<children.length;i++){
     parent.appendChild(children[i]);
   }
 }
-
 
 
 for(let i = 0 ; i < getFloors ;i++){
@@ -51,13 +51,25 @@ for(let i = 0 ; i < getFloors ;i++){
         getDiv.appendChild(innerDiv);
         const button = [createButton("Down")];
         appendButton(innerDiv,button); 
-        appendLifts(innerDiv,lifts) ;
     }
     else if(i !== 0 && i!== getFloors - 1){
         const innerDiv = document.createElement("div");
         innerDiv.classList.add("inner_container");
         getDiv.appendChild(innerDiv);
         const button = [createButton("Up"),createButton("Down")];
+        button[0].addEventListener("click",function(){
+            const liftZero = document.querySelector(".lift__0");
+            liftZero.style.transition = "bottom 2s";
+            if(i===3){
+              liftZero.style.bottom = "120"+"px";
+            } 
+            else if(i===2){
+                liftZero.style.bottom = "240"+"px";
+            }
+            else if(i===1){
+                liftZero.style.bottom = "360"+"px";
+            }
+        })
         appendButton(innerDiv,button);   
     }
     else if(i === getFloors - 1){
@@ -66,8 +78,12 @@ for(let i = 0 ; i < getFloors ;i++){
         getDiv.appendChild(innerDiv);
         const button = [createButton("up")];
         appendButton(innerDiv,button);
+        // Appending lifts to the innerDiv
+        appendLifts(innerDiv,lifts) ;
+        console.log(lifts);
     }
 }
+
 
 
 

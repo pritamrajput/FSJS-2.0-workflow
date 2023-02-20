@@ -5,10 +5,9 @@
 }
 .main__container{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
@@ -17,11 +16,13 @@
 
 .inner_container{
     width: 80%;
-    height: 150px;
+    height: 120px;
     display: flex;
-    gap: 5px;
     align-items: center;
+    gap: 5px;
+    border: #000000 solid 1px;
     background-color: skyblue ;
+    position: relative;
 }   
 
 .btn{
@@ -41,4 +42,6 @@
     width: 100px;
     background-color: pink;
     border: solid pink 1px;
+    position: relative;
+    left: 100px;
 }
