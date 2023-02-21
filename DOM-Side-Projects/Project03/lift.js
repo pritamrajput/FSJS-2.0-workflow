@@ -14,7 +14,7 @@ goButton[0].addEventListener("click",function(){
 liftNumber = Number(selectLift[0].value - 1);
 console.log(liftNumber);
 if(liftNumber > getLifts - 1){
-    alert(`Enter number less than or equal to ${getLifts}`);
+    alert(`Only ${getLifts} lift available 🙂`);
 }
 else if(liftNumber === -1){
     alert('Please enter a value')
@@ -41,6 +41,7 @@ function appendButton(parent, children){
 function createLifts(liftIndex){
     const lift = document.createElement("div");
     lift.classList.add("lifts",`lift__${liftIndex}`);
+    lift.textContent = `lift ${liftIndex + 1}`
     return lift;
 }
 

@@ -1,19 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Lato&family=Playfair+Display+SC:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,500;1,600&family=Poppins:wght@300;400;600&family=Press+Start+2P&family=Zeyada&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .main__container{
+    display: flex;
     width: 100vw;
     height: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
     
 
@@ -24,7 +22,7 @@
     align-items: center;
     gap: 5px;
     border: #000000 solid 1px;
-    background-color: skyblue ;
+    background-color: #71797E ;
     position: relative;
 }   
 
@@ -43,10 +41,17 @@
 .lifts{
     height: 90%;
     width: 100px;
-    background-color: pink;
-    border: solid pink 1px;
+    background-color: #E5E4E2;
+    border: solid #E5E4E2 1px;
     position: relative;
     left: 100px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: #71797E;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 8px;
 }
 .lift__0,.lift__1,.lift__2{
     transition: bottom 2s;
@@ -70,4 +75,25 @@
 .inside__container{
     background-color: aquamarine;
     margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Media queries */
+
+@media (max-width : 587px) {
+    .lifts{
+        width: 80px;
+        font-size: 0.8rem;
+        left: 80px;
+    }
+}
+@media (max-width : 479px) {
+    .lifts{
+        width: 60px;
+        font-size: 0.6rem;
+        left: 70px;
+    }
+    .inner_container{
+        width: 90%;
+    } 
 }
