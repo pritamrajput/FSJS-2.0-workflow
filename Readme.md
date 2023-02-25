@@ -95,12 +95,32 @@ I have made a clone of VS code landing page using HTML and Tailwind CSS. I have 
 
 # JavaScript DOM Projects
 
-## 🔗 Project 01 Link
+## 🔗 Project 00 Link
 This project generate a circle when you click on the screen and than the circle fades away. For more Details visit the link below
 ### Repository Link
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/Project-1) 
 ### Live Link
 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://unrivaled-cupcake-014d42.netlify.app/)
+
+## 🔗 Project 01 Link
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage) 
+
+## 🔗 Project 02 Link
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage)
+
+## 🔗 Project 03 Link
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage)
+
+## 🔗 Project 04 Link
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project4/04_DOM%20Project)
+
+## 🔗 Project 05 Link
+### Repository Link
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pritamrajput/FSJS-2.0-workflow/tree/master/FSJS2.0-JavaScript-Projects/DOM-Project5/05_DOM%20Project)
 
 
 <br>

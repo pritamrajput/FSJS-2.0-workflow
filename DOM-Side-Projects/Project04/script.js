@@ -26,4 +26,7 @@ const getData = async (event) => {
    const orgData = await fetchData.json();
    data = orgData;
    console.log(data); 
+
+   // Displaying the data in HTML
+    countryName.innerHTML = data.location.country;
 };
