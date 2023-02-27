@@ -6,6 +6,7 @@ const getLifts = localStorage.getItem('set-lifts');
 let btn;
 let lifts = [];
 let liftNumber;
+let liftOrder = 0;
 const selectLift = document.getElementsByClassName("input__lift");
 const goButton = document.getElementsByClassName("lift__select");
 
@@ -41,6 +42,7 @@ function appendButton(parent, children){
 function createLifts(liftIndex){
     const lift = document.createElement("div");
     lift.classList.add("lifts",`lift__${liftIndex}`);
+    lift.setAttribute("data-state","free");
     lift.textContent = `lift ${liftIndex + 1}`
     return lift;
 }
@@ -71,7 +73,14 @@ for(let i = 0 ; i < getFloors ;i++){
         getDiv.appendChild(innerDiv);
         const button = [createButton("Down")];
         button[0].addEventListener("click",function(){
-            lifts[liftNumber].style.bottom = `${(getFloors-1)*120}px`;
+            if(lifts[liftOrder].getAttribute("data-state") === "free"){
+            lifts[liftOrder].setAttribute("data-state","busy");
+            setTimeout(function(){
+             lifts[liftOrder].setAttribute("data-state","free"); 
+            },3000)
+            lifts[liftOrder].style.bottom = `${(getFloors-1)*120}px`
+            liftOrder += 1;
+        }
         })
         appendButton(innerDiv,button); 
     }
@@ -81,10 +90,10 @@ for(let i = 0 ; i < getFloors ;i++){
         getDiv.appendChild(innerDiv);
         const button = [createButton("Up"),createButton("Down")];
         button[0].addEventListener("click",function(){
-            lifts[liftNumber].style.bottom = `${(getFloors - i - 1)*120}px`
+            lifts[0].style.bottom = `${(getFloors - i - 1)*120}px`
         })
         button[1].addEventListener("click",function(){
-            lifts[liftNumber].style.bottom = `${(getFloors - i - 1)*120}px`
+            lifts[0].style.bottom = `${(getFloors - i - 1)*120}px`
         })
         appendButton(innerDiv,button);   
     }
@@ -96,7 +105,7 @@ for(let i = 0 ; i < getFloors ;i++){
         appendButton(innerDiv,button);
         // Appending lifts to the innerDiv
         button[0].addEventListener('click',function(){
-            lifts[liftNumber].style.bottom = "0"+"px";
+            lifts[0].style.bottom = "0"+"px";
         })
         appendLifts(innerDiv,lifts) ;
         console.log(lifts);
