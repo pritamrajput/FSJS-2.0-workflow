@@ -7,20 +7,8 @@ let btn;
 let lifts = [];
 let liftNumber;
 let liftOrder = 0;
-const selectLift = document.getElementsByClassName("input__lift");
-const goButton = document.getElementsByClassName("lift__select");
+let freeLift;
 
-//Selecting lift out of available lifts
-goButton[0].addEventListener("click",function(){
-liftNumber = Number(selectLift[0].value - 1);
-console.log(liftNumber);
-if(liftNumber > getLifts - 1){
-    alert(`Only ${getLifts} lift available 🙂`);
-}
-else if(liftNumber === -1){
-    alert('Please enter a value')
-};
-})
 
 // function to create button
 function createButton(text){
@@ -66,6 +54,16 @@ function appendLifts(parent,children){
   }
 }
 
+//Finding free lift
+function activeLift(){
+   for(let i = 0;i<lifts.length;i++){
+    if(lifts[i].getAttribute("data-state")==="free"){
+        return lifts[i];
+    }
+   }
+}
+
+
 
 for(let i = 0 ; i < getFloors ;i++){
     if(i === 0){
@@ -75,28 +73,13 @@ for(let i = 0 ; i < getFloors ;i++){
         const button = [createButton("Down")];
         button[0].addEventListener("click",function(){
             console.log(getFloors);
-            lifts[liftOrder].setAttribute("data-floor",getFloors);
-            if(lifts[liftOrder].getAttribute("data-state") === "free"){
-                lifts[liftOrder].setAttribute("data-state","busy");
-                setTimeout(function() {
-                    lifts[liftOrder].setAttribute("data-state","free"); 
-                },2500);
-                lifts[liftOrder].style.bottom = `${(getFloors-1)*120}px`
-            }
-            else if(lifts[liftOrder].getAttribute("data-state") === "busy"){
-                liftOrder+=1;
-                lifts[liftOrder].setAttribute("data-state","busy");
-                setTimeout(function() {
-                    lifts[liftOrder].setAttribute("data-state","free"); 
-                },2500);
-                lifts[liftOrder].style.bottom = `${(getFloors-1)*120}px`
-            }
-          
-            console.log(liftOrder);
+            const liftActive =  activeLift();
+            liftActive.setAttribute("data-state","busy");
+            setTimeout(()=>{
+             liftActive.setAttribute("data-state","free");
+            },2500);
+            liftActive.style.bottom = `${(getFloors-1)*120}px`;          
         })
-        if(lifts[liftOrder].style.bottom ===`${(getFloors - 1)*120}px` ){
-            console.log("hello world");
-         }
         appendButton(innerDiv,button); 
     }
     else if(i !== 0 && i!== getFloors - 1){
@@ -106,15 +89,21 @@ for(let i = 0 ; i < getFloors ;i++){
         const button = [createButton("Up"),createButton("Down")];
         button[0].addEventListener("click",function(){
             console.log(getFloors - i);
-            lifts[liftOrder].setAttribute("data-floor",getFloors - i);
-            lifts[liftOrder].style.bottom = `${(getFloors - i - 1)*120}px`
-            
+           const liftActive =  activeLift();
+           liftActive.setAttribute("data-state","busy");
+           setTimeout(()=>{
+            liftActive.setAttribute("data-state","free");
+           },2500);
+           liftActive.style.bottom = `${(getFloors-i-1)*120}px`; 
         })
         button[1].addEventListener("click",function(){
             console.log(getFloors - i);
-            console.log(liftOrder);
-            lifts[liftOrder].setAttribute("data-floor",getFloors - i);
-            lifts[liftOrder].style.bottom = `${(getFloors - i - 1)*120}px`
+            const liftActive =  activeLift();
+            liftActive.setAttribute("data-state","busy");
+            setTimeout(()=>{
+             liftActive.setAttribute("data-state","free");
+            },2500);
+            liftActive.style.bottom = `${(getFloors-i-1)*120}px`;
         })
         appendButton(innerDiv,button);   
     }
@@ -127,8 +116,12 @@ for(let i = 0 ; i < getFloors ;i++){
         // Appending lifts to the innerDiv
         button[0].addEventListener('click',function(){
             console.log(1);
-            lifts[liftOrder].setAttribute("data-floor",getFloors - i);
-            lifts[liftOrder].style.bottom = "0"+"px";
+            const liftActive =  activeLift();
+            liftActive.setAttribute("data-state","busy");
+            setTimeout(()=>{
+             liftActive.setAttribute("data-state","free");
+            },2500);
+            liftActive.style.bottom = `${0}px`;
         })
         appendLifts(innerDiv,lifts) ;
         console.log(lifts);
