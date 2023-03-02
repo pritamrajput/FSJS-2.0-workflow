@@ -7,7 +7,8 @@ const getLifts= document.querySelector(".input__lift");
 
 
 form.addEventListener("submit", function(e){
-  e.preventDefault();
+  if(getFloors.value !== "" && getLifts.value !== ""){
+    e.preventDefault();
   const myFloors = getFloors.value;
   const myLifts = getLifts.value;
 
@@ -15,6 +16,10 @@ form.addEventListener("submit", function(e){
   localStorage.setItem("set-lifts",myLifts);
 
   window.location.href = "lift.html";
+  }
+ else{
+  alert("Please enter the value");
+ }
 
 })
 
