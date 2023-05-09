@@ -154,7 +154,6 @@ body{
   color: var(--on-background);
   font-size: var(--body-3);
   overflow: hidden;
-  height: 200vh;
 }
 
 :focus-visible{
@@ -170,12 +169,37 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: var();
+  background-color: var(--white-alpha-8);
+  border-radius: var(--radius-pill);
 }
 /*-----------------------------------*\
   #MATERIAL ICON
 \*-----------------------------------*/
+@font-face{
+  font-family: 'Material Symbol Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/material-symbol-rounded.woff2) format('woff2'); 
+}
 
+.m-icon{
+  font-family: 'Material Symbol Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: none;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  --webkit-font-feature-settings: 'liga';
+  --webkit-font-smoothing: antialiased;
+  height: 1em;
+  width: 1em;
+  overflow: hidden;
+}
 
 
 
