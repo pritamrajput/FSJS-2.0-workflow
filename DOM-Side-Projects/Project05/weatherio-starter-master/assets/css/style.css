@@ -573,7 +573,7 @@ article.container::before{
 \*-----------------------------------*/
 
 .highlights .m-icon{
-   font-size: 2.4rem;
+   font-size: 3.2rem;
 }
 
 .highlight-list{
@@ -659,7 +659,7 @@ article.container::before{
 .highlight-card.two .label-1{margin-block-end: 4px;}
 
 /*-----------------------------------*\
-  #FORECAST
+  #FORECAST // Reviewing
 \*-----------------------------------*/
 .slider-container{
   overflow-x: auto;
