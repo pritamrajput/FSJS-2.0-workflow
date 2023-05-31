@@ -307,6 +307,19 @@ export const updateWeather = function(lat, lon){
 
       })
 
+      /**
+       * 24H FORECAST SECTION
+       */
+       fetchData(url.forecast(lat, lon), function(forecast){
+         
+         const {
+           list: forecastList,
+           city: {timezone}
+         } = forecast;
+
+         hourlySection.innerHTML = ``;
+
+       });
     });
 }
 
