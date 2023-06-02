@@ -98,7 +98,10 @@ const errorContent = document.querySelector("[data-error-content]");
  */
 
 export const updateWeather = function(lat, lon){
-
+     
+    loading.style.display = "grid";
+    container.style.overflowY = "hidden";
+    container.classList.remove("fade-in");  
     errorContent.style.display = "none";
 
     const currentWeatherSection = document.querySelector("[data-current-weather]");
@@ -429,4 +432,5 @@ export const updateWeather = function(lat, lon){
     });
 }
 
-export const error404 = function(){}
+export const error404 = () => errorContent.style.display = "flex";
+
