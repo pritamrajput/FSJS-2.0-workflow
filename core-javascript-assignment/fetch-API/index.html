@@ -10,7 +10,13 @@
     <script>
         
        console.log('about to fetch an image');
-       fetch('blue.png');
+       fetch('blue.png').then(blue=>{
+        console.log(blue);
+        return blue.blob();
+       }).then(data => {
+        console.log(data);
+        document.getElementById("rainbow").src = URL.createObjectURL(data);
+       });
 
     </script>
 </body>
