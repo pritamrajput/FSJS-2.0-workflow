@@ -7,17 +7,6 @@
 </head>
 <body>
     <img src="" id="rainbow" alt="">
-    <script>
-        
-       console.log('about to fetch an image');
-       fetch('blue.png').then(blue=>{
-        console.log(blue);
-        return blue.blob();
-       }).then(data => {
-        console.log(data);
-        document.getElementById("rainbow").src = URL.createObjectURL(data);
-       });
-
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
