@@ -1,4 +1,4 @@
-const url = 'http://worldtimeapi.org/api/timezone/Europe/London';
+const url = 'http://worldtimeapi.org/api/timezone/Europe/newyork';
 
 async function getDate(){
  const response = await fetch(url);
