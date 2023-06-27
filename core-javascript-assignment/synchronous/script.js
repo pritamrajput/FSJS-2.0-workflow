@@ -10,3 +10,8 @@ let greetings = function(){
 }
 
 greetings();
+
+let str = "Hello, how are you ?";
+console.log(str);
+alert("Hello I am alert box");
+console.log("Alert gone");
